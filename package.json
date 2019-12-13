@@ -11,6 +11,7 @@
   },
   "scripts": {
     "dev": "nodemon test.js",
+    "req": "node modbus-stream_client.js",
     "server": "node server_example.js",
     "cli": "node client_example.js",
     "modbus-tcp": "node modbus-tcp_example.js",

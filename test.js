@@ -9,6 +9,7 @@ modbus.tcp.server({ debug: "server" }, (connection) => {
   console.log("Listening...")
   modbus.tcp.connect(12345, { debug: "client" }, (err, connection) => {
     connection.on("read-coils", (request, reply) => {
+      console.log("BLEH")
       reply(null, [ 1, 0, 1, 0, 1, 1, 0, 1 ]);
     });
   });
