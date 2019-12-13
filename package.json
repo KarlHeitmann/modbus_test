@@ -1,0 +1,7 @@
+{
+  "name": "modbus_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Karl Heitmann <khf1988@gmail.com>",
+  "license": "MIT"
+}
