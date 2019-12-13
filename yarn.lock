@@ -22,6 +22,11 @@ jsmodbus@^4.0.0:
     crc "3.4.0"
     debug "^3.1.0"
 
+modbus-tcp@^0.4.13:
+  version "0.4.13"
+  resolved "https://registry.yarnpkg.com/modbus-tcp/-/modbus-tcp-0.4.13.tgz#3e0e93af516d78a19f0f62686e64558e6ae6426b"
+  integrity sha512-TytYObBTQhEMzjfFgGK3iESUoneH9WJRWHoZkt7PBuNnnx2nSOW0tOLC1YeQKNi/Qv7Xv0IjbVhxOoHyXOaV9g==
+
 ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"

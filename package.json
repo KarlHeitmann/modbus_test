@@ -5,7 +5,8 @@
   "author": "Karl Heitmann <khf1988@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jsmodbus": "^4.0.0"
+    "jsmodbus": "^4.0.0",
+    "modbus-tcp": "^0.4.13"
   },
   "scripts": {
     "server": "node server_example.js",
