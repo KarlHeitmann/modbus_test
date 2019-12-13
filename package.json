@@ -6,11 +6,13 @@
   "license": "MIT",
   "dependencies": {
     "jsmodbus": "^4.0.0",
+    "modbus-stream": "^0.44.0",
     "modbus-tcp": "^0.4.13"
   },
   "scripts": {
     "server": "node server_example.js",
     "cli": "node client_example.js",
-    "modbus-tcp": "node modbus-tcp_example.js"
+    "modbus-tcp": "node modbus-tcp_example.js",
+    "run-test": "node test.js"
   }
 }
