@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Karl Heitmann <khf1988@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jsmodbus": "^4.0.0"
+  },
+  "scripts": {
+    "server": "node server_example.js",
+    "cli": "node client_example.js"
+  }
 }
