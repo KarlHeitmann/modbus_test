@@ -2,6 +2,7 @@ var modbus = require("modbus-stream");
 
 modbus.tcp.server({ debug: "server" }, (connection) => {
   connection.readCoils({ address: 5, quantity: 8 }, (err, info) => {
+    console.log("Wenaaaa...")
     console.log("response", info.response.data);
   });
 }).listen(12345, () => {

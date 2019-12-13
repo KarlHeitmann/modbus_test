@@ -10,9 +10,13 @@
     "modbus-tcp": "^0.4.13"
   },
   "scripts": {
+    "dev": "nodemon test.js",
     "server": "node server_example.js",
     "cli": "node client_example.js",
     "modbus-tcp": "node modbus-tcp_example.js",
     "run-test": "node test.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
